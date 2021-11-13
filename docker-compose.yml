@@ -2,17 +2,17 @@ version: '3.4'
 
 services:
   frontend:
-    image: frontend
+    image: frontend-proj
     build:
-      context: frontend
+      context: frontend-proj
       dockerfile: ./Dockerfile
     ports:
       - 4200:4200
     restart: "always"
   backend:
-    image: backend
+    image: projetoprenatal-backend
     build:
-      context: ./backend
+      context: ./backend-proj
       dockerfile: ./Dockerfile
     ports:
       - 1024:1024
