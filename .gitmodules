@@ -2,5 +2,5 @@
 	path = frontend-proj
 	url = https://github.com/boscocp/projetoprenatal-frontend
 [submodule "backend-proj"]
-	path = projetoprenatal-backend
+	path = backend-proj
 	url = https://github.com/boscocp/projetoprenatal-backend
