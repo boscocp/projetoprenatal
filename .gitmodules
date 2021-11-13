@@ -1,3 +1,6 @@
 [submodule "frontend-proj"]
 	path = frontend-proj
 	url = https://github.com/boscocp/projetoprenatal-frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/boscocp/projetoprenatal-backend
