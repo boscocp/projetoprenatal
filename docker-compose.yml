@@ -12,8 +12,10 @@ services:
   backend:
     image: projetoprenatal-backend
     build:
-      context: ./backend-proj
+      context: ./backend
       dockerfile: ./Dockerfile
     ports:
       - 1024:1024
     restart: always
+    env_file:
+      - database.env
