@@ -9,3 +9,11 @@ services:
     ports:
       - 4200:4200
     restart: "always"
+  backend:
+    image: backend
+    build:
+      context: ./backend
+      dockerfile: ./Dockerfile
+    ports:
+      - 1024:1024
+    restart: always
