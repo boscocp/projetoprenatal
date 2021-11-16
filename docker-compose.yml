@@ -11,3 +11,11 @@ services:
     restart: always
     env_file:
       - database.env
+  frontend:
+    image: frontend
+    build:
+      context: frontend
+      dockerfile: ./Dockerfile
+    ports:
+      - 4200:4200
+    restart: "always"
