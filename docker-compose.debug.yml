@@ -21,11 +21,3 @@ services:
     ports:
       - 1024:1024
       - 5678:5678
-   frontend:
-    image: frontend-proj
-    build:
-      context: frontend-proj
-      dockerfile: ./Dockerfile
-    ports:
-      - 4200:4200
-    restart: "always"
