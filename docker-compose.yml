@@ -14,7 +14,7 @@ services:
   frontend:
     image: frontend
     build:
-      context: frontend
+      context: ./frontend-proj
       dockerfile: ./Dockerfile
     ports:
       - 4200:4200
